@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Survey Form</title>
+	<title>Coffee Order Form</title>
 </head>
 <body>
 
-	<h1 id="title">Survey Form</h1>
+	<h1 id="title">Online Order Form</h1>
 
 	<p id="description">
-		This is a description of the form.
+		Please enter in the necessary details for your coffee order
 	</p>
 
 	<form id="survey-form">
@@ -18,43 +18,39 @@
 		<!-- Email input -->
 		<input id="email" type="email" name="email" placeholder="Email">
 
-		<!-- Age input -->
-		<input id="number" type="number" name="age" placeholder="Age">
+		<!-- "How many" input -->
+		<input id="number" type="number" name="howMany" placeholder="Number of coffees">
 
-		<!-- Dropdown input -->
+		<!-- Type input -->
 		<select id="dropdown" type="dropdown" name="dropdown">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
+			<option value="drip">Drip Coffee</option>
+			<option value="iced">Iced Coffee</option>
+			<option value="hotcoco">Hot Coco</option>
 		</select>
 
-		<!-- RadioButton input -->
+		<!-- Size input -->
 		<div id="radioInput">
-			<input type="radio" name="interest" value="interest1">
-			<label for="interest1">interest1</label>
+			<input type="radio" name="size" value="tall">
+			<label for="tall">Tall</label>
 
-			<input type="radio" name="interest" value="interest2">
-			<label for="interest1">interest2</label>
+			<input type="radio" name="size" value="grande">
+			<label for="grande">Grande</label>
 
-			<input type="radio" name="interest" value="interest3">
-			<label for="interest1">interest3</label>
+			<input type="radio" name="size" value="venti">
+			<label for="venti">Venti</label>
 		</div>
 
-		<!-- Checkbox input -->
+		<!-- Options input -->
 		<div id="checkboxInput">
-			<input id="checkbox1" type="checkbox" name="checkbox1" value="checkbox1">
-			<label for="checkbox1">Checkbox1</label>
+			<input id="cream" type="checkbox" name="cream" value="cream">
+			<label for="cream">Cream?</label>
 
-			<input id="checkbox2" type="checkbox" name="checkbox2" value="checkbox2">
-			<label for="checkbox2">Checkbox2</label>
-
-			<input id="checkbox3" type="checkbox" name="checkbox3" value="checkbox3">
-			<label for="checkbox3">Checkbox3</label>
+			<input id="sugar" type="checkbox" name="sugar" value="sugar">
+			<label for="sugar">Sugar?</label>
 		</div>
 
 		<!-- TextArea Input -->
-		<textarea name="textarea" rows="5" cols="10">Write something here...</textarea>
+		<textarea name="textarea" rows="10" cols="15">Anything special to add to the order?</textarea>
 
 		<!-- Submit button -->
 		<input type="submit" value="Submit Form">
