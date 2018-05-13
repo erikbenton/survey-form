@@ -13,15 +13,19 @@
 
 	<form id="survey-form">
 		<!-- Name input -->
+		<label for="name">Name: </label>
 		<input id="name" type="text" name="name" placeholder="Name">
 
 		<!-- Email input -->
+		<label for="email">Email: </label>
 		<input id="email" type="email" name="email" placeholder="Email">
 
 		<!-- "How many" input -->
-		<input id="number" type="number" name="howMany" placeholder="Number of coffees">
+		<label for="count">Number of Coffees: </label>
+		<input id="number" type="number" name="count" placeholder="Number of coffees">
 
 		<!-- Type input -->
+		<label for="dropdown">Type of Coffees: </label>
 		<select id="dropdown" type="dropdown" name="dropdown">
 			<option value="drip">Drip Coffee</option>
 			<option value="iced">Iced Coffee</option>
@@ -30,6 +34,7 @@
 
 		<!-- Size input -->
 		<div id="radioInput">
+			<label>Size for order: </label>
 			<input type="radio" name="size" value="tall">
 			<label for="tall">Tall</label>
 
@@ -42,6 +47,7 @@
 
 		<!-- Options input -->
 		<div id="checkboxInput">
+			<label>Anything to add? </label>
 			<input id="cream" type="checkbox" name="cream" value="cream">
 			<label for="cream">Cream?</label>
 
@@ -50,7 +56,8 @@
 		</div>
 
 		<!-- TextArea Input -->
-		<textarea name="textarea" rows="10" cols="15">Anything special to add to the order?</textarea>
+		<label>Any special instructions for the order? </label>
+		<textarea name="textarea" rows="10" cols="15"></textarea>
 
 		<!-- Submit button -->
 		<input type="submit" value="Submit Form">
