@@ -27,7 +27,7 @@ input[type='submit'] {
 #special-instructions-label {
 	vertical-align: top;
 }
-input {
+input, #dropdown, textarea {
 	grid-column: 2;
 	text-align: left;
 	margin-left: 10px; 
