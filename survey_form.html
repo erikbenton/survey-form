@@ -17,14 +17,14 @@
 
 		<!-- Name input -->
 		<div class="complete_input">
-			<label for="name">Name: </label>
-			<input id="name" type="text" name="name" placeholder="Enter your name">
+			<label for="name">*Name: </label>
+			<input id="name" type="text" name="name" placeholder="Enter your name" required>
 		</div>
 
 		<!-- Email input -->
 		<div class="complete_input">
-			<label for="email">Email: </label>
-			<input id="email" type="email" name="email" placeholder="Email">
+			<label for="email">*Email: </label>
+			<input id="email" type="email" name="email" placeholder="Email" required>
 		</div>
 
 		<!-- "How many" input -->
@@ -71,7 +71,7 @@
 		</div>
 
 		<!-- TextArea Input -->
-		<label>Any special instructions for the order? </label>
+		<label id="special-instructions-label">Any special instructions for the order? </label>
 		<textarea name="textarea" rows="4" cols="25"></textarea>
 
 		<!-- Submit button -->
