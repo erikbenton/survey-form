@@ -16,58 +16,47 @@
 		</p>
 
 		<!-- Name input -->
-		<div class="complete_input">
-			<label for="name">*Name: </label>
-			<input id="name" type="text" name="name" placeholder="Enter your name" required>
-		</div>
+		<label for="name">*Name: </label>
+		<input id="name" type="text" name="name" placeholder="Enter your name" required>
 
 		<!-- Email input -->
-		<div class="complete_input">
-			<label for="email">*Email: </label>
-			<input id="email" type="email" name="email" placeholder="Email" required>
-		</div>
+		<label for="email">*Email: </label>
+		<input id="email" type="email" name="email" placeholder="Email" required>
 
 		<!-- "How many" input -->
-		<div class="complete_input">
-			<label for="count">Number of Coffees: </label>
-			<input id="number" type="number" name="count" min="1" step="1" placeholder="Number of coffees">
-		</div>
+		<label for="count">Number of Coffees: </label>
+		<input id="number" type="number" name="count" min="1" step="1" placeholder="1">
 
 		<!-- Type input -->
-		<div class="complete_input">
-			<label for="dropdown">Type of Coffees: </label>
-			<select id="dropdown" type="dropdown" name="dropdown">
-				<option value="drip">Drip Coffee</option>
-				<option value="iced">Iced Coffee</option>
-				<option value="hotcoco">Hot Coco</option>
-			</select>
-		</div>
+		<label for="dropdown">Type of Coffees: </label>
+		<select id="dropdown" type="dropdown" name="dropdown">
+			<option value="" disabled selected>Select your coffee</option>
+			<option value="drip">Drip Coffee</option>
+			<option value="iced">Iced Coffee</option>
+			<option value="hotcoco">Hot Coco</option>
+		</select>
 
 		<!-- Size input -->
-		<div class="complete_input">
-			<div id="radioInput">
-				<label>Size for order: </label>
-				<input type="radio" name="size" value="tall">
-				<label for="tall">Tall</label>
+		<label>Size for order: </label>
+		<div id="radioInput">
+			<input type="radio" name="size" value="tall">
+			<label for="tall">Tall</label>
 
-				<input type="radio" name="size" value="grande">
-				<label for="grande">Grande</label>
+			<input type="radio" name="size" value="grande">
+			<label for="grande">Grande</label>
 
-				<input type="radio" name="size" value="venti">
-				<label for="venti">Venti</label>
-			</div>
+			<input type="radio" name="size" value="venti">
+			<label for="venti">Venti</label>
 		</div>
 
 		<!-- Options input -->
-		<div class="complete_input">
-			<div id="checkboxInput">
-				<label>Anything to add? </label>
-				<input id="cream" type="checkbox" name="cream" value="cream">
-				<label for="cream">Cream?</label>
+		<label>Anything to add? </label>
+		<div id="checkboxInput">
+			<input id="cream" type="checkbox" name="cream" value="cream">
+			<label for="cream">Cream?</label>
 
-				<input id="sugar" type="checkbox" name="sugar" value="sugar">
-				<label for="sugar">Sugar?</label>
-			</div>
+			<input id="sugar" type="checkbox" name="sugar" value="sugar">
+			<label for="sugar">Sugar?</label>
 		</div>
 
 		<!-- TextArea Input -->
