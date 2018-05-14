@@ -1,0 +1,22 @@
+body {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #287856;
+}
+
+h1 {
+	text-align: center;
+}
+
+.complete_input {
+	display: block;
+}
+
+input[type='submit'] {
+	display: block;
+	text-align: center;
+}
+
+form {
+	background-color: #70AD93;
+}
