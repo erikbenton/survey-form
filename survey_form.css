@@ -1,5 +1,5 @@
 body {
-	width: 50%;
+	width: 67%;
 	margin: 0 auto;
 	background-color: #287856;
 }
@@ -20,8 +20,9 @@ h1 {
 input[type='submit'] {
 	display: block;
 	grid-column: 1 / 3;
-	width: 15%;
+	width: 10%;
 	margin: 10px auto;
+	text-align: center;
 }
 
 #special-instructions-label {
@@ -30,7 +31,16 @@ input[type='submit'] {
 input, #dropdown, textarea {
 	grid-column: 2;
 	text-align: left;
-	margin-left: 10px; 
+	margin-left: 10px;
+	width: 50%; 
+}
+
+input[type='radio'] {
+	width: 10px;
+}
+
+input[type='checkbox'] {
+	width: 10px;
 }
 
 label {
@@ -41,11 +51,10 @@ label {
 
 form {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 50% 50%;
 	grid gap: 10px;
 	grid-row-gap: 10px;
 	background-color: #70AD93;
-	width: 75%;
-	/*margin: 10px auto;*/
-	padding: 10px 20%;
+	width: 100%;
+	margin: 10px auto;
 }
